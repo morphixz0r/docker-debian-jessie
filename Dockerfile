@@ -1,4 +1,4 @@
-# Debian Jessie docker image with En Australia and En US locales
+# Debian Jessie docker build with En Australia and En US locales
 
 FROM debian:jessie
 
