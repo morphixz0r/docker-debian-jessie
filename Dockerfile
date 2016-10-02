@@ -22,8 +22,6 @@ RUN set -- junk $LOCALES_DEF  \
     done ; \
     locale-gen
 
-RUN echo "generated locales are:" && locale -a
-
 RUN apt-get clean  &&  \
     rm -rf /var/lib/apt/lists/*
 
